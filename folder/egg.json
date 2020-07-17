@@ -1,0 +1,474 @@
+{
+  "campaigns": [
+    {
+      "CREATE": [
+        {
+     "Status": "Plan",
+     "Description": "just another desc",
+     "Expected Revenue": "200",
+     "Actual_Cost": "100",
+     "Type": "conf",
+     "Start_Date": "2018-10-05",
+     "End_Date": "2019-10-05",
+     "Expected_Response": "190",
+     "Budgeted_Cost": "100",
+     "Campaign_Name": "random campaign",
+     "Num_sent": "12",
+     "Tag": "any tag"
+}
+      ],
+      "UPDATEALL": [
+        {
+     "Status": "updating Plan",
+     "Description": "just updated another desc",
+     "Expected_Revenue": "300",
+     "Actual_Cost": "230",
+     "Type": "conf",
+     "Start_Date": "2018-09-05",
+     "End_Date": "2019-09-05",
+     "Expected_Response": "220",
+     "Budgeted_Cost": "120",
+     "Campaign_Name": "random updated campaign",
+     "Num_sent": "14",
+     "Tag": "any tag update"
+}
+      ],
+      "PERSONA": "TIA"
+    }
+  ],
+  "activities": [
+    {
+      "CREATE": [
+        {
+          "reminder_time": 1800,
+          "repeat_type": "Weekly",
+          "description": "Setting up IBM call for Jira",
+          "date_end": "2018-10-09T08:00:00-06:00",
+          "repeat_dow": "2",
+          "repeat_count": 2,
+          "assigned_user_id": "1",
+          "team_name": [
+            {
+              "id": "04951d94-99bd-11e8-aaf9-06ac6cf6c781"
+            }
+          ],
+          "date_start": "2018-10-09T07:30:00-06:00",
+          "duration_minutes": 30,
+          "email_reminder_checked": true,
+          "email_reminder_time": 1800,
+          "name": "Set up an call trial",
+          "repeat_interval": 1,
+          "repeat_selector": "None",
+          "tag": [
+            {
+              "name": " Max Payload jira"
+            },
+            {
+              "name": "Standup call MAx Payload Jira"
+            }
+          ],
+          "direction": "Inbound",
+          "status": "Planned"
+        }
+      ],
+      "UPDATEALL": [
+        {
+          "Status": "updating Plan",
+          "Description": "just updated another desc",
+          "Expected_Revenue": "300",
+          "Actual_Cost": "230",
+          "Type": "conf",
+          "Start_Date": "2018-09-05",
+          "End_Date": "2019-09-05",
+          "Expected_Response": "220",
+          "Budgeted_Cost": "120",
+          "Campaign_Name": "random updated campaign",
+          "Num_sent": "14",
+          "Tag": "any tag update"
+        }
+      ],
+      "PERSONA": "TIA"
+    }
+  ],
+  "leads": [
+    {
+      "CREATE": [
+       {
+       "Company": "GSLab",
+       "Email": "gs@gsl.com",
+       "Description": "no desc",
+       "Rating": "qwerty",
+       "First Name": "GS",
+       "Website": "www.gmail.com",
+       "Twitter": "gslab",
+       "Lead_Status": "string",
+       "Skype_ID": "string",
+       "Annual_Revenue": "120000",
+       "Salutation": "mister",
+       "Industry": "soft",
+       "Zip_Code": "212121",
+       "Phone": "67677677",
+       "Street": "baner road",
+       "Secondary Email": "as@gf.com",
+       "No_of_Employees": "12",
+       "Lead_Source": "qwer",
+       "Email_Opt Out": "yes",
+       "Designation": "admin",
+"Last_Name":"sdswsda",
+       "City": "Pune",
+       "Mobile": "+9112121212",
+       "State": "Maharashtra",
+       "Country": "India",
+       "Last Name": "kate",
+       "Fax": "+9112121212",
+       "Tag": "tag"
+}
+      ],
+      "UPDATEALL": [
+       {
+       "Company": "GSLab",
+       "Email": "gs@gsl.com",
+       "Description": "no desc",
+       "Rating": "qwerty",
+       "First Name": "GS",
+       "Website": "www.gmail.com",
+       "Twitter": "gslab",
+       "Lead_Status": "string",
+       "Skype_ID": "string",
+       "Annual_Revenue": "120000",
+       "Salutation": "mister",
+       "Industry": "soft",
+       "Zip_Code": "212121",
+       "Phone": "67677677",
+       "Street": "baner road",
+       "Secondary Email": "as@gf.com",
+       "No_of_Employees": "12",
+       "Lead_Source": "qwer",
+       "Email_Opt Out": "yes",
+       "Designation": "admin",
+"Last_Name":"sdfdwsda",
+       "City": "Hyderabad",
+       "Mobile": "+9112121212",
+       "State": "Maharashtra",
+       "Country": "India",
+       "Last Name": "kate",
+       "Fax": "+9112121212",
+       "Tag": "tag"
+
+}
+      ],
+      "PERSONA": "TIA"
+    }
+  ],
+  "accounts": [
+    {
+      "CREATE": [
+       {
+      "SIC_Code": "8583475",
+      "Account_Number": "9",
+      "Ownership": "appconqwzwahhhnusf7t9jxlxr",
+      "Description": "test desc",
+      "Rating": "appconj1gnhw4p7splq1pjh5mi",
+      "Account_Site": "ven-site",
+      "Employees": "43",
+      "Website": "http://www.iookknlkmpnuzk.com",
+      "Annual_Revenue": "200",
+      "Industry": "appconcad9wkkgrfos092l9dx6r",
+      "Account_Name": "yk-acc",
+      "Billing_Code": "33034",
+      "Billing_City": "Pune",
+      "Phone": "+91-121212",
+      "Shipping_Street": "baner rd",
+      "Shipping_State": "maharashtra",
+      "Account_Type": "appcon678jimie2t3lqb8bsm7vi",
+      "Billing_State": "Maharashtra",
+      "Ticker_Symbol": "symb-987",
+      "Shipping_City": "Pune again",
+      "Billing_Country": "India",
+      "Shipping_Code": "33035",
+      "Shipping_Country": "India",
+      "Billing_Street": "Baner again",
+      "Fax": "+91-121212121",
+      "Tag": "just a tag"
+}
+      ],
+      "UPDATEALL": [
+       {
+      "SIC_Code": "1212121",
+      "Account_Number": "334",
+      "Ownership": "appconqwzwahhhnusf7t9jxlxr",
+      "Description": "updated desc",
+      "Rating": "appconj1gnhw4p7splq1pjh5mi",
+      "Account_Site": "updated-site",
+      "Employees": "32",
+      "Website": "http://www.update.com",
+      "Annual_Revenue": "20078",
+      "Industry": "appconcad9wkkgrfos092l9dx6r",
+      "Account_Name": "yk-asd",
+      "Billing_Code": "33035",
+      "Billing_City": "Puneupdate",
+      "Phone": "+91-121212121",
+      "Shipping_Street": "baner rd again",
+      "Shipping_State": "maharashtra again",
+      "Account_Type": "appcon678jimie2t3lqb8bsm7vi",
+      "Billing_State": "Maharashtra",
+      "Ticker_Symbol": "symb-985",
+      "Shipping_City": "Pune again",
+      "Billing_Country": "India",
+      "Shipping_Code": "33038",
+      "Shipping_Country": "India",
+      "Billing_Street": "Baner again",
+      "Fax": "+91-121212121",
+      "Tag": "just a tag"
+}
+      ],
+      "PERSONA": "TIA"
+    }
+  ],
+  "contacts": [
+    {
+      "CREATE": [
+             {
+            "Mailing_Zip": "75248",
+            "Reports_To": "Ryan Rand",
+            "Description": "Tis is were contact description",
+            "Email": "Ryan.rand@ce.com",
+            "Other_Street": "Dallas parkway",
+            "Full_Name": "Ryan donals",
+            "Twitter": "ryan25",
+            "Skype_ID": "ryan25sky",
+            "Salutation": "yes",
+            "Vendor_Name": "CE Vendor",
+            "Other_Zip": "80205",
+            "Mailing_Country": "usa",
+            "Account_Name": "yk-1001",
+            "Home_Phone": "3034568754",
+            "Department": "IT",
+            "Assistant": "No",
+            "Phone": "3031234567",
+            "Add_to_QuickBooks": "Yes",
+            "Secondary_Email": "ryan.rand@yahoo.com",
+            "Other_City": "Denver",
+            "Campaign_Source": "Yes",
+            "Lead_Source": "Yes",
+            "Mailing_City": "Dallas",
+            "Mailing_State": "Texas",
+            "Other_State": "NY",
+            "Other_Phone": "7201234567",
+            "Title": "New Contact",
+            "Mailing_Street": "Dallas parkway",
+            "Mobile": "720539876",
+            "Asst_Phone": "5516891571",
+            "Other_Country": "IN",
+            "Date_of_Birth": "1990-01-01",
+            "Fax": "987-654-4321",
+            "First_Name": "Ryan",
+            "Last_Name": "Randerson",
+            "Tag": "ceTag"
+     }
+      ],
+      "UPDATEALL": [
+     {
+            "Mailing_Zip": "75248",
+            "Reports_To": "Ryan Rand",
+            "Description": "Tis is were contact description",
+            "Email": "Ryan.rand@ce.com",
+            "Other_Street": "Dallas parkway",
+            "Full_Name": "Ryan donals",
+            "Twitter": "ryan25",
+            "Skype_ID": "ryan25sky",
+            "Salutation": "yes",
+            "Vendor_Name": "CE Vendor",
+            "Other_Zip": "80205",
+            "Mailing_Country": "usa",
+            "Account_Name": "yk-1001",
+            "Home_Phone": "3034568754",
+            "Department": "IT",
+            "Assistant": "No",
+            "Phone": "3031234567",
+            "Add_to_QuickBooks": "Yes",
+            "Secondary_Email": "ryan.rand@yahoo.com",
+            "Other_City": "Denver",
+            "Campaign_Source": "Yes",
+            "Lead_Source": "Yes",
+            "Mailing_City": "Dallas",
+            "Mailing_State": "Texas",
+            "Other_State": "NY",
+            "Other_Phone": "9008656288",
+            "Title": "New Contact",
+            "Mailing_Street": "Dallas parkway",
+            "Mobile": "720539876",
+            "Asst_Phone": "5516891571",
+            "Other_Country": "IN",
+            "Date_of_Birth": "1990-01-01",
+            "Fax": "987-654-4321",
+            "First_Name": "Ryan",
+            "Last_Name": "Randerson",
+            "Tag": "ceTag"
+     }
+      ],
+      "PERSONA": "TIA"
+    }
+  ],
+  "tasks": [
+    {
+      "CREATE": [
+       {
+          "date_start": "2018-09-28T08:30:00-06:00",
+          "date_due": "2018-09-29T07:30:00-06:00",
+          "parent_id": "c8c7436c-c254-11e8-aec4-06dd0b112989",
+          "name": "SC_CETask",
+          "description": "This is my new task 123",
+          "tag": [
+            {
+              "name": "New"
+            },
+            {
+              "name": "Must"
+            }
+          ],
+"Subject":"efedfew",
+          "assigned_user_id": "df81a5d9-1414-43a8-b423-3eb75c7fe90c",
+          "contact_id": "87ed5100-3f0b-11e8-9226-024b2e004070",
+          "parent_type": "Opportunities",
+          "priority": "Medium",
+          "team_name": [
+            {
+              "id": "920e5afe-e1b9-11e6-aaed-06ac6cf6c781"
+            },
+            {
+              "id": "1"
+            }
+          ],
+          "status": "Pending Input"
+        }
+      ],
+      "PERSONA": "TIA"
+    }
+  ],
+  "activities-calls": [
+    {
+      "CREATE": [
+        {
+    "Related_To": "Chethan",
+    "Call_Start_Time": "2018-10-01T01:36:00-07:00",
+    "Call_From_To": "yk",
+    "Call_Details": "call details",
+    "Description": "call desc",
+    "Call_Purpose": "chat1",
+    "Billable": true,
+    "Subject": "call subj",
+    "Call_Type": "any",
+    "SEMODULE": "Leads",
+    "Call_Status": "scd",
+    "RELATEDTOID": "1212",
+    "Call_Result": "result",
+    "Call_Duration": "13:00",
+    "Call_Duration (in seconds)": "2345",
+    "CONTACTID": "2328224000001239001"
+
+}
+      ],
+      "UPDATEALL": [
+       {
+    "Related_To": "Chethan",
+    "Call_Start_Time": "2018-10-01T01:36:00-07:00",
+    "Call_From_To": "yk",
+    "Call_Details": "call details",
+    "Description": "call desc",
+    "Call_Purpose": "char23",
+    "Billable": true,
+    "Subject": "call subj",
+    "Call_Type": "any",
+    "SEMODULE": "Leads",
+    "Call_Status": "scd",
+    "RELATEDTOID": "1212",
+    "Call_Result": "result",
+    "Call_Duration": "13:00",
+    "Call_Duration (in seconds)": "2345",
+    "CONTACTID": "2328224000001239001"
+
+}
+      ],
+      "PERSONA": "TIA"
+    }
+  ],
+  "activities-events":[
+    {
+      "CREATE": [
+       {
+    "Start_DateTime": "2018-10-09T04:41:43-07:00",
+    "Description": "any desc",
+    "Venue": "Paris",
+    "Subject": "any subject",
+    "SEMODULE": "Account",
+    "CONTACTID": "2328224000001239001",
+    "End_DateTime": "2018-10-09T04:41:43-07:00",
+    "Send_Notification Email": "true",
+  "Event_Title":"any subject"
+}
+      ],
+      "UPDATEALL": [
+      {
+    "Start_DateTime": "2018-10-09T04:41:43-07:00",
+    "Description": "any desc",
+    "Venue": "Paris",
+    "Subject": "any subject",
+    "SEMODULE": "Account",
+    "CONTACTID": "2328224000001239001",
+    "End_DateTime": "2018-10-09T04:41:43-07:00",
+    "Send_Notification Email": "true",
+"Event_Title":"any subject"
+}
+      ],
+      "PERSONA": "TIA"
+    }
+  ],
+  "cases":[
+    {
+      "CREATE": [
+        {
+    "Case_Reason": "just a case",
+    "Email": "yk@gslab.com",
+    "Description": "case desc",
+    "Case_Origin": "yk@gslab.com",
+    "Reported By": "custopmer",
+    "Account_Name": "blue",
+    "Phone": "+9112121212",
+    "Solution": "Awaiting",
+    "Status": "waiting",
+    "Add_Comment": "random comment",
+    "Priority": "abc",
+    "Product_Name": "zoho crm",
+    "Internal_Comments": "resolved",
+    "Subject": "awaiting solution",
+    "Case_Number": "234",
+    "Type": "bug",
+    "No_of_comments": "12",
+    "Potential_Name": "defect in crm"}
+      ],
+      "UPDATEALL": [
+       {
+    "Case_Reason": "Existing problem",
+    "Email": "xyz.cvvb@gslab.com",
+    "Description": "Case desc",
+    "Case_Origin": "Email",
+    "Reported_By": "Report by",
+    "Account_Name": "Account name3",
+    "Phone": "34354654654675",
+    "Solution": "solution info",
+    "Status": "On Hold",
+    "Priority": "High",
+    "Internal_Comments": "internal comments",
+    "Subject": "Case Subject12",
+    "Type": "Feature Request",
+    "No_of_comments": "0",
+    "Potential_Name": "Potential1",
+    "Product_Name":"Prod1",
+    "Add_Comment":"add cmt"
+}
+      ],
+      "PERSONA": "TIA"
+    }
+  ]
+}
